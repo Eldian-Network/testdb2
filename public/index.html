@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Reminder App</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>⏰ Reminder App</h1>
+
+    <form id="reminderForm">
+
+      <input
+        type="text"
+        id="title"
+        placeholder="Reminder Title"
+        required
+      >
+
+      <textarea
+        id="description"
+        placeholder="Description"
+      ></textarea>
+
+      <input
+        type="date"
+        id="date"
+        required
+      >
+
+      <input
+        type="time"
+        id="time"
+        required
+      >
+
+      <button type="submit">
+        Add Reminder
+      </button>
+
+    </form>
+
+    <div id="reminders"></div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
