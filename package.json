@@ -1,0 +1,8 @@
+{
+  "name": "reminder-app",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "mongoose": "^8.5.1"
+  }
+}
